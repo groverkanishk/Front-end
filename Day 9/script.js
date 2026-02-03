@@ -13,3 +13,14 @@ console.log(query2, "query");
 for(let i = 0; i < query2.length; i++){
     query2[i].textContent = "hafjkhfka vfialfh"
 }
+
+const query3 = document.getElementsByTagName("p");
+
+for(let i = 0; i < query3.length; i++){
+    if(i % 2 == 0){
+        query3[i].style.color = "tomato"
+    }
+    else{
+        query3[i].style.color = "blue"
+    }
+}
